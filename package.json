@@ -10,7 +10,7 @@
   "bin": {
     "aesscr": "index.js"
   },
-  "keywords": ["aes"],
+  "keywords": ["aes", "scrypt"],
   "author": "Paul Miller",
   "license": "MIT",
   "dependencies": {
