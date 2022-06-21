@@ -1,0 +1,20 @@
+{
+  "name": "aesscr",
+  "version": "0.2.0",
+  "description": "Use AES-256-GCM + Scrypt to encrypt files",
+  "main": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "aesscr": "index.js"
+  },
+  "keywords": ["aes"],
+  "author": "Paul Miller",
+  "license": "MIT",
+  "dependencies": {
+    "@noble/hashes": "1.1.2",
+    "micro-aes-gcm": "0.2.0"
+  }
+}
