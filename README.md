@@ -9,8 +9,15 @@ Use AES-256-GCM + Scrypt to encrypt files.
 CLI:
 
 ```sh
-aesscr encrypt password file.zip
-aesscr decrypt password file.zip.aesscr
+aesscr encrypt file.zip PASSWORD
+# will create file.zip.aesscr
+aesscr decrypt file.zip.aesscr PASSWORD
+# will create file.zip
+
+# PASSWORD must be 14 or more characters
+# PASSWORD can be also supplied in ENV variable:
+export AES_PASSWORD='abcdefabcdef1234'
+aesscr encrypt file.zip
 ```
 
 ## Algorithm
