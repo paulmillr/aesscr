@@ -1,6 +1,6 @@
 {
   "name": "aesscr",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Use AES-256-GCM + Scrypt to encrypt files",
   "main": "index.js",
   "files": ["index.js"],
