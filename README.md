@@ -20,6 +20,13 @@ export AES_PASSWORD='abcdefabcdef1234'
 aesscr encrypt file.zip
 ```
 
+API:
+
+```ts
+import { encrypt, decrypt } from 'aesscr';
+await encrypt("password101520", Uint8Array.from([5, 10, 11]));
+```
+
 ## Algorithm
 
 - Encryption: AES-256-GCM
